@@ -13,9 +13,15 @@
 	    case '-':
 	     resultado= a-b;
 	     break;
+
+        case '/':
+	     resultado= a/b;
+	     break;
+
+        case 'x':
+	     resultado= a*b;
+	     break;
 	    default: printf("ERRO");
-
-
 	}
 	 printf("%d",resultado );
 	 return-0;
